@@ -21,6 +21,17 @@ const (
 	HLT
 )
 
+const (
+	REG0 = iota
+	REG1
+	REG2
+	REG3
+	REG4
+	REG5
+	REG6
+	REG7
+)
+
 // 命令コード生成関数
 
 func makeOp(opCode, ra, rb uint16) uint16 {
